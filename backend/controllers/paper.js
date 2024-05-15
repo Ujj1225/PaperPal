@@ -10,10 +10,10 @@ const Model = async (req, res) => {
   };
 
   try {
-    
     await fs.writeFile("../media/paper.txt", req.body);
     console.log("Starting Point...");
     const pythonRes = await PythonShell.run("model.py", options);
+    console.log(pythonRes);
 
     let jsonData;
     while (true) {
@@ -40,4 +40,21 @@ const testing = async (req, res) => {
   res.send("Hello Baba!");
 };
 
-module.exports = { testing, Model };
+const qna = async (req, res) => {
+  try {
+    let question = req.body.question;
+    let options = {
+      scriptPath: "../model",
+      args: [question],
+    };
+    const pythonRes = await PythonShell.run("qna.py", options);
+    res.send(pythonRes);
+  } catch (error) {
+    console.error("Error in qna function:", error);
+    res.status(500).json({
+      error: error.message || "Internal Server Error",
+    });
+  }
+};
+
+module.exports = { testing, Model, qna };
