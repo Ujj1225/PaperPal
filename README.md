@@ -51,7 +51,7 @@
 
 - Web Scraping Technology
 
-  Social Sensor employs advanced web scraping technology to extract relevant data, focusing on news articles from the Online Khabar portal. This feature ensures a continuous and up-to-date stream of information for users.
+  PaperPal employs advanced web scraping technology to extract relevant data, focusing on news articles from the Online Khabar portal. This feature ensures a continuous and up-to-date stream of information for users.
   <details>
     <summary> Web Scrapper </summary>
     <img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/img1.png" width=750/>
@@ -78,7 +78,7 @@
 
 ### Prerequisites
 
-Before running Social Sensor, you must set it up by following the given setup procedure. You must set up the Frontend, Backend and Model separately. In case of a query, feel free to contact the contributors.
+Before running PaperPal, you must set it up by following the given setup procedure. You must set up the Frontend, Backend and Model separately. In case of any query, feel free to contact the contributors.
 
 ### Setup
 
@@ -95,22 +95,15 @@ Before running Social Sensor, you must set it up by following the given setup pr
 ### Frontend
 
 ```bash
-cd Client
+cd client
 npm install
 ```
 
 ### Backend
 
 ```bash
-cd Backend
+cd backend
 npm install
-```
-
-### Model
-
-```bash
-cd LSTM_model
-pip install -r requirements.txt
 ```
 
 3. Setting up .env file for Backend
@@ -119,7 +112,6 @@ pip install -r requirements.txt
 
   ```bash
   PORT = (You can use any but default is: 3000)
-  CONNECTION_STRING =
   ```
 
 4. Running the project:
@@ -156,7 +148,7 @@ pip install -r requirements.txt
 
 ### Model
 
-- Dependencies concerning model are mentioned in [requirements.txt](./LSTM_model/requirement.txt)
+- LLMWare's specialized model namely "slim-summary-tool" and "slim-boolean-tool" is used for this project. 
 
 ## License
 
