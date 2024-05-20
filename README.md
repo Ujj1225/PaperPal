@@ -1,6 +1,6 @@
 # PaperPal
 
-# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/client%20/src/assets/logo.png" width=300 /></p>
+# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/logo.png" width=300 /></p>
 
 <p align="center">
     <p align="center">
@@ -66,7 +66,7 @@
 The application uses advanced natural language processing (NLP) techniques to generate concise summaries of research papers. This feature helps users quickly understand the key points and findings of lengthy academic documents.
 <details>
   <summary> Paper Summarization </summary>
-  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/summarization_example.png" width=750/>
+  <img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/summarize.png" width=750/>
 </details>
 
 - Question and Answer System
@@ -74,7 +74,7 @@ The application uses advanced natural language processing (NLP) techniques to ge
 The system leverages state-of-the-art models to answer questions about the content of research papers. By providing detailed explanations alongside the answers, this feature enables users to gain a deeper understanding of specific aspects of the research.
 <details>
   <summary> Question and Answer </summary>
-  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/qa_example.png" width=750/>
+  <img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/ask.png" width=750/>
 </details>
 
 - User-Friendly Interface
@@ -82,7 +82,7 @@ The system leverages state-of-the-art models to answer questions about the conte
 The platform includes a clean and intuitive interface where users can easily upload research papers, ask questions, and view summaries and answers. This feature ensures that even users without technical expertise can benefit from the application's capabilities.
 <details>
   <summary> User Interface </summary>
-  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/ui_example.png" width=750/>
+  <img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/ui.png" width=750/>
 </details>
 
 ## Installation
