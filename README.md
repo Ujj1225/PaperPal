@@ -1,6 +1,6 @@
 # PaperPal
 
-# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/logo.png" width=300 /></p>
+# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/client/src/assets/readme_logo.png" width=300 /></p>
 
 <p align="center">
     <p align="center">
