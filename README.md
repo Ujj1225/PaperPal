@@ -1,6 +1,6 @@
 # PaperPal
 
-# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/hero-socialmedia.png" width=300 /></p>
+# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/client%20/src/assets/logo.png" width=300 /></p>
 
 <p align="center">
     <p align="center">
@@ -34,11 +34,23 @@
 
 ## Problem Statement
 
-# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/problem.png" width=750 height=425 /></p>
+* Time-Consuming Research: Researchers and students often spend extensive time reading and understanding lengthy academic papers.
+
+* Information Overload: Processing and retaining vast amounts of information from multiple research papers can be overwhelming.
+
+* Difficulty in Extracting Key Insights: Identifying and focusing on the most critical information within a paper is challenging without a summarization tool.
+
+* Limited Access to Expert Answers: Finding precise and detailed answers to specific questions about research papers can be difficult without expert guidance.
 
 ## Solutions
 
-# <p align="center"><img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/Solution.png" width=750 height=425 /></p>
+* Automated Summarization: The tool generates concise summaries of research papers, saving users time and effort in understanding key points.
+
+* Streamlined Information Processing: By condensing information, the tool helps users manage and retain knowledge from multiple papers more effectively.
+
+* Focused Insights Extraction: The application highlights the most critical information, allowing users to quickly grasp important insights without extensive reading.
+    
+* Expert-Level Q&A: The system answers specific questions about research papers with detailed explanations, providing users with expert-level guidance and understanding.
 
 ## Table of Contents
 
