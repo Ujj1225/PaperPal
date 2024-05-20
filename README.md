@@ -49,30 +49,29 @@
 
 ## Features
 
-- Web Scraping Technology
+- Research Paper Summarization
 
-  PaperPal employs advanced web scraping technology to extract relevant data, focusing on news articles from the Online Khabar portal. This feature ensures a continuous and up-to-date stream of information for users.
-  <details>
-    <summary> Web Scrapper </summary>
-    <img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/img1.png" width=750/>
-  </details>
+The application uses advanced natural language processing (NLP) techniques to generate concise summaries of research papers. This feature helps users quickly understand the key points and findings of lengthy academic documents.
+<details>
+  <summary> Paper Summarization </summary>
+  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/summarization_example.png" width=750/>
+</details>
 
-- Sentiment Analysis
+- Question and Answer System
 
-  The application utilizes sentiment analysis to evaluate the tone and sentiment of the gathered data. This feature provides users with valuable insights into how their online mentions are perceived, helping them gauge the overall sentiment surrounding their digital presence.
-  <details>
-    <summary> Sentiment Analysis </summary>
-    <img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/img2.png" width=750/>
+The system leverages state-of-the-art models to answer questions about the content of research papers. By providing detailed explanations alongside the answers, this feature enables users to gain a deeper understanding of specific aspects of the research.
+<details>
+  <summary> Question and Answer </summary>
+  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/qa_example.png" width=750/>
+</details>
 
-  </details>
+- User-Friendly Interface
 
-- Realtime Visualization
-
-  Implemented a visualizer where you can see the different headings/ news. It clearly helps us visualize the positive, negative and neutral topics.
-  <details>
-    <summary> Visualization </summary>
-    <img src="https://github.com/Ujj1225/PaperPal/blob/main/Client%20/src/assets/images/img3.png" width=750/>
-  </details>
+The platform includes a clean and intuitive interface where users can easily upload research papers, ask questions, and view summaries and answers. This feature ensures that even users without technical expertise can benefit from the application's capabilities.
+<details>
+  <summary> User Interface </summary>
+  <img src="https://github.com/yourusername/yourrepository/blob/main/path/to/ui_example.png" width=750/>
+</details>
 
 ## Installation
 
@@ -104,6 +103,12 @@ npm install
 ```bash
 cd backend
 npm install
+```
+
+### Model 
+```bash
+cd model
+pip install llmware
 ```
 
 3. Setting up .env file for Backend
