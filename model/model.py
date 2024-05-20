@@ -14,12 +14,15 @@ response_dict = {}
 
 for i, paragraph in enumerate(paragraphs):
     response = model.function_call(
-        paragraph, function="summarize", params=["summary points(5)"]
+        paragraph, function="summarize", params=["summary points(8)"]
     )
 
-    section = "Abstract" if i == 0 else "Discussion and Conclusion"
+    section = "Research Paper"
 
     response_dict[section] = response["llm_response"]
+
+for section, points in response_dict.items():
+    response_dict[section] = points[:-1]
 
 with open("../media/response.json", "w") as json_file:
     json.dump(response_dict, json_file)
