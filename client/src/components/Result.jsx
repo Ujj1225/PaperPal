@@ -5,7 +5,7 @@ import Loading from "./Loading";
 
 const Result = ({ res }) => {
   const [chat, setChat] = useState(false);
-  const [question, setQuestion] = useState([]);
+  const [question, setQuestion] = useState("");
   const [qaPairs, setQaPairs] = useState([]);
 
   const [qna, { isLoading }] = useQnaMutation();
@@ -14,15 +14,26 @@ const Result = ({ res }) => {
     if (question.trim() === "") return;
 
     try {
-      const res = await qna(question).unwrap();
+      console.log("Submitting question:", question); 
 
-      // Join the array of strings into a single string
+      const res = await qna({ question }).unwrap();
+
+      console.log("Raw backend response:", res); 
+
       const jsonString = res.join("");
 
-      // Parse the joined string as JSON
+      console.log("Joined JSON string:", jsonString);
+
       const parsedRes = JSON.parse(jsonString);
 
-      setQaPairs([...qaPairs, { question, answer: parsedRes }]);
+      console.log("Parsed response:", parsedRes); 
+
+      const formattedQuestion = parsedRes.question.replace(" (explain)", "");
+
+      setQaPairs([
+        ...qaPairs,
+        { question: formattedQuestion, answer: parsedRes },
+      ]);
       setQuestion("");
     } catch (error) {
       console.error("Failed to fetch the answer:", error);
@@ -74,7 +85,7 @@ const Result = ({ res }) => {
           }}
         >
           <div style={{ maxHeight: "18rem", overflow: "scroll" }}>
-            {qaPairs.length == 0 ? (
+            {qaPairs.length === 0 ? (
               <div
                 style={{
                   textAlign: "center",
