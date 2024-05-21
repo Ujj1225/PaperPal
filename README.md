@@ -52,6 +52,10 @@
     
 * Expert-Level Q&A: The system answers specific questions about research papers with detailed explanations, providing users with expert-level guidance and understanding.
 
+## Demo
+https://github.com/Ujj1225/Social-Sensor/assets/97169735/39e19b2a-f720-4015-847a-b9074eaa85d0
+
+
 ## Table of Contents
 
 - [Features](#features)
